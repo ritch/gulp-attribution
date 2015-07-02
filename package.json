@@ -1,0 +1,27 @@
+{
+  "name": "gulp-attribution",
+  "version": "0.1.0",
+  "description": "Parse JS files for attributes",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "keywords": [
+    "gulp",
+    "attributes",
+    "jsdoc"
+  ],
+  "author": "Ritchie Martori",
+  "license": "MIT",
+  "devDependencies": {
+    "gulp": "^3.9.0",
+    "gulp-foreach": "^0.1.0",
+    "stream-assert": "^2.0.2"
+  },
+  "dependencies": {
+    "through2": "^2.0.0"
+  }
+}
